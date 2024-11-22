@@ -1,5 +1,5 @@
 import React from 'react';
-import SideNav from "../ui/sidenav";
+import SideNav from "../sidenav";
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
