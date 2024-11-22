@@ -1,6 +1,7 @@
+import React from 'react';
 import SideNav from "../ui/sidenav";
 
-export const Layout = ({ children }: { children: React.ReactNode }) => {
+const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (
         <section className="flex h-screen flex-col md:flex-row md:overflow-hidden">
             <div className="w-full flex-none md:w-64">
